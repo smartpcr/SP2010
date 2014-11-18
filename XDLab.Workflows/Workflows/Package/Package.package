@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2bd86aac-f17c-405b-9cec-be229a5cf095" solutionId="2bd86aac-f17c-405b-9cec-be229a5cf095" resetWebServer="false" name="Workflows" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="752f8808-f93e-4c10-9de7-16cbe9014670" />
+  </features>
+</package>
