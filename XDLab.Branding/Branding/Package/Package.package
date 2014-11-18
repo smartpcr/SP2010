@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="147cb4f4-66ac-49b0-8c09-1ad1753908ff" 
-        solutionId="147cb4f4-66ac-49b0-8c09-1ad1753908ff" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="Branding"
-        sharePointProductVersion="14.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="147cb4f4-66ac-49b0-8c09-1ad1753908ff" solutionId="147cb4f4-66ac-49b0-8c09-1ad1753908ff" resetWebServer="false" name="Branding" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="bfd1fab6-c1e1-43e0-9c2a-95557ce162b7" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="a78b481b-a963-4d0a-9659-a704cac5a007" />
+    <projectItemReference itemId="294ae331-a889-45ac-a9fd-49d281b73ea8" />
+  </projectItems>
 </package>

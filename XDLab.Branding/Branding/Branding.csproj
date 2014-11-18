@@ -52,6 +52,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{bfd1fab6-c1e1-43e0-9c2a-95557ce162b7}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a78b481b-a963-4d0a-9659-a704cac5a007}</SharePointProjectItemId>
+    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
       <PackageId>{147cb4f4-66ac-49b0-8c09-1ad1753908ff}</PackageId>
@@ -59,9 +65,23 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="STYLES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{294ae331-a889-45ac-a9fd-49d281b73ea8}</SharePointProjectItemId>
+    </None>
+    <None Include="_catalogs\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7e89ec0a-0ed1-4754-ac1f-bd142c7e8c5e}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Folder Include="Images\Branding\" />
+    <Folder Include="_catalogs\masterpage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="_catalogs\Elements.xml" />
+    <Content Include="_catalogs\Sample.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
